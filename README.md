@@ -48,5 +48,15 @@ Bu döngü temel syntax ve kurallarının ardından Öğrenci Sınav Notlarını
 
 ---
 ### 📌Proje 8 : METHODLAR
-Geriye değer döndüren ve döndürmeyen methodlarla ilgili mini uygulamalar yazdım.![3d-model_3783101](https://github.com/user-attachments/assets/2a6e2ec0-1999-4ebf-9800-71c51e650570)
+Geriye değer döndüren ve döndürmeyen methodlarla ilgili mini uygulamalar yazdım ![3d-model_3783101 (1)](https://github.com/user-attachments/assets/eed46c8e-3b89-4ae6-bd92-ee8779189175)
+
+---
+### 📌Proje 9 : SQL DATABASE 
+SQL Server Management Studio kullanarak consoldan veri tabanına bağlantı sağlayabilmek için temel bağlanı elementlerini öğrendim.(connection-commend-addwithvalue vb.)![data-processing_2980479 (1)](https://github.com/user-attachments/assets/3a8fba0c-ea92-43df-9682-02114efa3041)
+
+
+---
+### 📌Proje 10 : SQL DATABASE CRUD
+Veri tabanına bağlanarak consol sayesinde veri ekleme silme düzenleme gibi temel CRUD işlemlerini yaparak dinamik bir proje hazırladım.![data-collection_2103581 (1)](https://github.com/user-attachments/assets/ad28cde3-62f5-4425-8aa7-17bfb2c0676a)
+
 
