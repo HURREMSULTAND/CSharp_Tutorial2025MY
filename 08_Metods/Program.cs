@@ -63,9 +63,7 @@ namespace _08_Metods
 			//customerCart("Ayşegül"," Kaya");
 			#endregion
 
-
-
-			#region  Geriye Değer Döndürmeye Parametreli Metotlar
+			#region  Geriye Değer Döndürmeyen Int Parametreli Metotlar
 
 			//void sum(int number1, int number2, int number3)
 			//{
@@ -76,7 +74,6 @@ namespace _08_Metods
 			//}
 			//sum(4, 6, 45);
 			#endregion
-
 
 			#region Geriye DEğer Döndüren Metotlar
 
@@ -104,7 +101,6 @@ namespace _08_Metods
 
 			#endregion
 
-
 			#region #region Geriye DEğer Döndüren  String Parametreli Metotlar
 
 			//		string CountryCard (string countryName, string capital , string flagColor) 
@@ -130,15 +126,14 @@ namespace _08_Metods
 
 			#endregion
 
-
 			#region #region Geriye DEğer Döndüren  Int PArametreli Metotlar
 
 
-   //         int Sum(int number1, int number2) 
+			//         int Sum(int number1, int number2) 
 			//{
 			//int result =number1 + number2;
 			//	return result;
-			
+
 			//}
 			//Console.WriteLine(Sum(45,90));
 			//Console.WriteLine(Sum(36,25));
@@ -146,30 +141,38 @@ namespace _08_Metods
 			//Console.WriteLine(Sum(14,20));
 
 
-		
 
-		
+
+
 			#endregion
 
+			#region Örnek Uygulama
 
-				 string ExamResult(string student ,int exam1, int exam2,int exam3) 
-			     {
-			   int result=(exam1+ exam2+ exam3)/3;
+			string ExamResult(string student, int exam1, int exam2, int exam3)
+			{
+				int result = (exam1 + exam2 + exam3) / 3;
 				if (result >= 50)
 				{
-					return  student + "  İsimli Öğrenci Geçti  " +	"Ortalama: "+ result;
+					return student + "  İsimli Öğrenci Geçti  " + "Ortalama: " + result;
 				}
-                else
-                {
+				else
+				{
 					return student + "  İsimli Öğrenci Kaldı  " + "Ortalama: " + result;
 				}
 
-                 } 
+			}
 			Console.WriteLine(ExamResult("Ali", 25, 41, 85));
 			Console.WriteLine(ExamResult("Ayşe", 36, 88, 33));
 
 			Console.ReadLine();
 
+
+
+
+			#endregion
+
+
+			Console.ReadLine();
 
 		}
 	}
